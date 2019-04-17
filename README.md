@@ -2,6 +2,11 @@
 
 This project aims to emulate an invisibilty cloak like in Harry Potter.
 
+> Note: Run this before you start
+```python
+pip install -r requirements.txt
+```
+
 1) First we need to choose the color to mask. The code works by masking a specific color.
 ```python
 python range_det.py -f HSV --webcam
